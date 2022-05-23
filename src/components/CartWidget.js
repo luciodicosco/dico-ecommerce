@@ -2,7 +2,9 @@ import React from 'react'
 
 export const CartWidget = () => {
   return (
-    <img src=".src\components\imgs\carrito.jpg"></img>
+    <div className='cartWidget'>
+    <img src={require("./imgs/shoppingcart.png")} height="40px" width="40px" alt="no hay img"></img>
+    </div>
   );
 }
 
