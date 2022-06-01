@@ -1,16 +1,13 @@
+import React from 'react';
 import Item from './Item';
-import { ProductsContainer } from "./styledComponents";
 
-const ItemList = ({items}) => {
+const ItemList = ({listaProductos}) => {
   return (
-    <ProductsContainer>
-        {
-            items.length > 0
-            ? items.map(item => <Item title={item.name} price={item.cost} pictureUrl={item.image})
-            : <p>Cargando..</p>
-        }
-    </ProductsContainer>
-  );
-}
+    <div>
+      <h3>Lista de productos</h3>
+      {listaProductos.map((producto) => <Item key={producto.id} producto={producto}></Item>)}
+    </div>
+  )
+  }
 
 export default ItemList;
