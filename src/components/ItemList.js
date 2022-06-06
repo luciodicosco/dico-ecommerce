@@ -3,10 +3,12 @@ import Item from './Item';
 
 const ItemList = ({listaProductos}) => {
   return (
-    <div>
+    <>
       <h3>Lista de productos</h3>
+      <div className='d-flex justify-content-between flex-wrap'>
       {listaProductos.map((producto) => <Item key={producto.id} producto={producto}></Item>)}
     </div>
+    </>
   )
   }
 

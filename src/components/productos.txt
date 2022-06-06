@@ -1,5 +1,19 @@
 const productos = [
     {name: "Air Max Dawn",
+        description: "Las Zapatillas Nike Air Max Dawn son ideales para tus tardes de running y tu vida diaria. Posee una cámara de aire con una estética llamativa y visible que te dará una mejor amortiguación en cada paso y mejor tracción cuando corres o caminas. Super cómodas a primera vista y a primera pisada. Con una estética cuidada y clásica que destacará cualquier look y mejorará tu confort en un 100%",
+        cost: 26499,
+        image: [
+            "https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw5ecbea5c/products/NI_DH4656-001/NI_DH4656-001-1.JPG"
+        ],
+    }
+        {name: "Air Force 1 07 Lv8",
+        description: "Las zapatillas Nike Air Force 1 ´07 Lv8 forman parte del equipo ficticio de atletismo . Traen la inspiración de los 70 a los elementos básicos de la moda urbana. Están combinadas con la diversión del estilo retro del básquetbol ofreciendo un remaster de lo que ya conocés: superposiciones cosidas, colores llamativos, el logo Swoosh en grande y combinaciones en gamuza para dar mayor resalte y sensación de suavidad. El toque final se lo da el parche letterman del talón que suman un estilo universitario. Este es tu calzado favorito para dentro y fuera de la cancha sin dudas ¿no?",
+        cost: 26499,
+        image: [
+            "https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dwbc424bee/products/NI_DH7568-002/NI_DH7568-002-1.JPG"
+        ],
+    }
+        {name: "Air Max Dawn",
         description: "zapatilla moderna y cómoda",
         cost: 26499,
         image: [
